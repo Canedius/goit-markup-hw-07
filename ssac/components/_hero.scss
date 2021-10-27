@@ -5,6 +5,7 @@
 .section-hero__container {
   margin-left: auto;
   margin-right: auto;
+  min-width: 320px;
   max-width: 1600px;
   height: 600px;
   padding-left: 15px;
@@ -20,7 +21,6 @@
 
 .section-hero__title {
   color: $primary-color;
-  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

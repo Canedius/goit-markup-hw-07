@@ -25,6 +25,7 @@
       <div class="container container--center">
         <nav class="section-header__nav">
           <a class="logo" href="./index.html">Web<span class="logo__content">Studio</span></a>
+
           <ul class="list">
             <li class="list__item">
               <a class="link" href="./index.html">Студия</a>
@@ -34,6 +35,65 @@
             </li>
             <li class="list__item"><a class="link" href="">Контакты</a></li>
           </ul>
+          <button
+            class="menu-button js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            type="button"
+          >
+            <svg
+              class="menu-button__menu"
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use class="icon-menu" href="./images/symbol-defs1.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
+          <div class="wrap-mobile js-menu-container" id="mobile-menu">
+            <div class="wrap-mobile-content">
+              <ul class="nav-mobile">
+                <li class="nav-mobile__menu">
+                  <a class="nav-mobile__link" href="./index.html">Студия</a>
+                </li>
+                <li class="nav-mobile__menu">
+                  <a class="nav-mobile__link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="nav-mobile__menu">
+                  <a class="nav-mobile__link" href="./index.html">Контакты</a>
+                </li>
+              </ul>
+              <div>
+                <ul class="contact-mobile">
+                  <li class="contact-mobile__tel">
+                    <a class="mobil-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                  </li>
+                  <li class="contact-mobile__mail">
+                    <a class="mobil-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  </li>
+                </ul>
+                <ul class="mobile-social">
+                  <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">Instagram</a>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">Twitter</a>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">Facebook</a>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="button-close js-close-menu" type="button">
+              <svg class="menu-button__close" width="40" height="40">
+                <use href="./images/symbol-defs1.svg#icon-close_40px"></use>
+              </svg>
+            </button>
+          </div>
         </nav>
         <ul class="list list--center">
           <li class="list__itemaddress">
@@ -56,7 +116,7 @@
       </div>
     </header>
     <main>
-      <section class="container-services">
+      <section class="section">
         <div class="container">
           <ul class="list-button">
             <li class="list-item-button">
@@ -80,7 +140,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img7.jpg" alt="ноутбук" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img7_2x.jpg 2x"
+                    src="./images/img7.jpg"
+                    alt="ноутбук"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -98,7 +164,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img8.jpg" alt="постер баскетбола" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img8_2x.jpg 2x"
+                    src="./images/img8.jpg"
+                    alt="постер баскетбола"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -116,7 +188,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img9.jpg" alt="логотип ресторана" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img9_2x.jpg 2x"
+                    src="./images/img9.jpg"
+                    alt="логотип ресторана"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -134,7 +212,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img10.jpg" alt="наушники" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img10_2x.jpg 2x"
+                    src="./images/img10.jpg"
+                    alt="наушники"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -152,7 +236,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img11.jpg" alt="коробки" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img11_2x.jpg 2x"
+                    src="./images/img11.jpg"
+                    alt="коробки"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -170,7 +260,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img12.jpg" alt="монитор" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img12_2x.jpg 2x"
+                    src="./images/img12.jpg"
+                    alt="монитор"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -188,7 +284,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img13.jpg" alt="журнал" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img13_2x.jpg 2x"
+                    src="./images/img13.jpg"
+                    alt="журнал"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -206,7 +308,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img14.jpg" alt="бирка" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img14_2x.jpg 2x"
+                    src="./images/img14.jpg"
+                    alt="бирка"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -224,7 +332,13 @@
             <li class="list-item-services">
               <a class="list-link-services" href="">
                 <div class="item-services-wrap">
-                  <img class="img" src="./images/img15.jpg" alt="ноутбук" width="370" />
+                  <img
+                    class="img"
+                    srcset="./images/img15_2x.jpg 2x"
+                    src="./images/img15.jpg"
+                    alt="ноутбук"
+                    width="370"
+                  />
                   <div class="description-servisec-wrap">
                     <p class="description-servisec-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -246,49 +360,55 @@
     <!--футтер-->
     <footer class="section-footer">
       <div class="container container--flex">
-        <div class="section-footer__address">
-          <a class="logo" href="./index.html">Web<span class="logo--footer">Studio</span></a>
-          <address class="contact">
-            <p class="contact__text">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="contact__address contact__address--push" href="mailto:info@devstudio.com"
-              >info@example.com</a
-            ><br />
-            <a class="contact__address" href="tel:+380961111111">+38 096 111 11 11</a>
-          </address>
+        <div class="wrapper-tablet">
+          <div class="section-footer__address">
+            <div class="logo-wrap">
+              <a class="logo" href="./index.html">Web<span class="logo--footer">Studio</span></a>
+            </div>
+
+            <address class="contact">
+              <p class="contact__text">г. Киев, пр-т Леси Украинки, 26</p>
+              <a class="contact__address contact__address--push" href="mailto:info@devstudio.com"
+                >info@example.com</a
+              >
+              <a class="contact__address" href="tel:+380961111111">+38 096 111 11 11</a>
+            </address>
+          </div>
+          <div class="container-social">
+            <b class="container-social__action">присоединяйтесь</b>
+            <ul class="container-social__list">
+              <li class="footer-social__item">
+                <a class="footer-social__link" href="">
+                  <svg class="footer-social__svg" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a class="footer-social__link" href="">
+                  <svg class="footer-social__svg" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a class="footer-social__link" href="">
+                  <svg class="footer-social__svg" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social__link" href="">
+                  <svg class="footer-social__svg" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="container-social">
-          <b class="container-social__action">присоединяйтесь</b>
-          <ul class="container-social__list">
-            <li class="footer-social__item">
-              <a class="footer-social__link" href="">
-                <svg class="footer-social__svg" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social__item">
-              <a class="footer-social__link" href="">
-                <svg class="footer-social__svg" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social__item">
-              <a class="footer-social__link" href="">
-                <svg class="footer-social__svg" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social__link" href="">
-                <svg class="footer-social__svg" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+
         <form class="footer-form">
           <b class="footer-form__action">Подпишитесь на рассылку</b>
           <div class="footer-form__container">
@@ -303,5 +423,12 @@
         </form>
       </div>
     </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
