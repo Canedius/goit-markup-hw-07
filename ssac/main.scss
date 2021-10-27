@@ -1,26 +1,7 @@
 @import './base/settings';
-@import './mobile/header-mobile';
-@import './mobile/hero-mobile';
-@import './mobile/qualities-mobile';
-@import './mobile/project-mobile';
-@import './mobile/team-mobile';
-@import './mobile/client-mobile';
-@import './mobile/footer-mobile';
-@import './mobile/modal-mobile';
-@import './mobile/portfolio-mobile';
-@import './tablet/header-tablet';
-@import './tablet/hero-tablete';
-@import './tablet/qualities-tablet';
-@import './tablet/team-tablet';
-@import './tablet/client-tablet';
-@import './tablet/footer-tablet';
-@import './tablet/portfolio-tablet';
-@import './desktop/header-desktop';
-@import './desktop/hero-desktop';
-@import './desktop/qualities-desktop';
-@import './desktop/project-desktop';
-@import './desktop/team-desktop';
-@import './desktop/client-desktop';
-@import './desktop/footer-desktop';
-@import './desktop/modal-desktop';
-@import './desktop/portfolio-desktop';
+@import "./mobile/module-mobile";
+@import "./tablet/module-tablet";
+@import "./desktop/module-desktop";
+
+
+
